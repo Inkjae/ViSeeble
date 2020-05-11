@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <!--<TextView
+    android:text="Profile"
+    android:id="@+id/head"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:textColor="@android:color/black"
+    android:textSize="20sp" />-->
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp" />
+    <TextView
+        android:text="Profile"
+        android:id="@+id/textprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Name"
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/NameEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="name name" />
+
+    <TextView
+        android:text="Phone Number"
+        android:id="@+id/textphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/PhoneEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="253dp"
+        android:inputType="phone"
+        android:text="010-0001000" />
+
+    <TextView
+        android:text="Blood Type"
+        android:id="@+id/textblood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="320dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/bloodedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:inputType="text"
+        android:text="  A" />
+
+    <CheckBox
+        android:id="@+id/Positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rh Positive / Rh+"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="348dp" />
+
+    <CheckBox
+        android:id="@+id/negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="373dp"
+        android:text="Rh Negative / Rh-" />
+
+    <TextView
+    android:text="Address"
+    android:id="@+id/textaddress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="420dp"
+    android:textColor="@color/colorPrimary"
+    android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/addressedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="433dp"
+        android:inputType="text"
+        android:text="california, 90201" />
+
+    <TextView
+        android:text="Emergency Contact"
+        android:id="@+id/textcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/contactedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="513dp"
+        android:inputType="phone"
+        android:text="090-9090909" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/callbtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/primary_round"
+            android:layout_centerInParent="true"
+            android:text="Call Emergency (0844154891)"
+            android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+
+</RelativeLayout>
